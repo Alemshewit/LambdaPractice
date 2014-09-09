@@ -33,7 +33,12 @@ namespace LambdaPractice
             //sort ballProducts alphabetically and print them to the console.
             Console.WriteLine(string.Join(", ", products.OrderBy(x => x)));
             //add six more items to the products list using .add().
-            products.Add("Ski Boots", "Jersey", "Ball Cart", "Towels", "Water Bottle", "Life Jacket");
+            products.Add("ki Boots");         
+            products.Add("Boots");
+            products.Add("Ball Cart");
+            products.Add("Towels");
+            products.Add("Life Jackets");
+            products.Add("Life Jacket");
             //print the product with the longest name to the console using the .First() extension.
             Console.WriteLine(products.OrderByDescending(x => x.Length).First());
             //print the product with the shortest name to the console using OrderByDesceding() and the .First() extension.
